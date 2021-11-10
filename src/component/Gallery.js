@@ -1,16 +1,18 @@
 const Gallery = () => {
-    return(
-        <section className="bg-danger">
-        <div className="container-fluid">
-        <div className="row"><h1>Gallery</h1></div>
+  return (
+    <section className="bg-dark">
+      <div className="container-fluid">
+        <h1 className="text-light text-center">l'art le vrai</h1>
         <div className="row">
-          <div className="col-12 col-md-6"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7MF-l9M73QVW8yuf4gsigI6me7YzHiPyLHA&usqp=CAU" witdh="100%"></img></div>
-          <div className="col-12 col-md-6">Elit veniam excepteur deserunt aliquip ea sint laboris est ut sint deserunt ex fugiat. Minim ad anim adipisicing cupidatat adipisicing proident aliqua quis ex. Qui dolore tempor ipsum voluptate eu ex aliquip esse in qui.
-          </div>
-        </div>
-        </div>
-      </section>
-    )
+          <div className="col p-4"><img className="img-fluid bobo" src="https://wallpapercave.com/wp/wp2260439.jpg"></img></div>
+          <div className="col p-4"><img className="img-fluid bobo" src="https://wallpapercave.com/wp/wp2260439.jpg"></img></div>
+          <div className="w-100"></div>
+          <div className="col p-4"><img className="img-fluid bobo" src="https://wallpapercave.com/wp/wp2260439.jpg"></img></div>
+          <div className="col p-4"><img className="img-fluid bobo" src="https://wallpapercave.com/wp/wp2260439.jpg"></img></div>
+      </div>
+      </div>
+    </section>
+  )
 }
 
 export default Gallery

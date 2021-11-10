@@ -11,3 +11,45 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.grad {
+  background-image: linear-gradient(40deg, #454545, #888);
+}
+
+section {
+  font-family: 'lemon milk';
+  min-width: 50vw;
+  min-height: 20vh;
+  display: flex;
+  align-self: center;
+}
+
+.App-header{
+  font-family: 'lemon milk';
+}
+
+[class*="jj"]{
+  
+}
+
+.jj1{
+  width: 150px;
+  height: 200px;
+  background-color: aqua;
+}
+
+.img-fluid{
+  box-shadow: 15px 15px 50px rgba(68, 68, 68, 0.562);
+  transition: transform .2s;
+  object-fit: cover;
+  object-position: center;
+}
+
+.img-fluid:hover{
+  transform: scale(1.1);
+}
+
+.bobo{
+  
+  
+}
