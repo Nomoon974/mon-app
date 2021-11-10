@@ -7,13 +7,23 @@ import Home from './component/Home';
 import Gallery from './component/Gallery';
 import Contact from './component/Contact';
 
+import { BrowserRouter,Routes,Route  } from 'react-router-dom';
+
 
 function App() {
   return (
     <div className="App">
+      
+      <BrowserRouter>
       <Header />
-      <Gallery />
-      <Contact />
+      <Routes>
+        <Route path="/" element={ <Home />} />
+        <Route path="/gallery" element={ <Gallery />} />
+        <Route path="/contact" element={ <Contact />} />
+      
+      </Routes>
+      </BrowserRouter>
+
       <Footer />
     </div>
   );
