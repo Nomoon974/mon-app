@@ -28,10 +28,6 @@ section {
   font-family: 'lemon milk';
 }
 
-[class*="jj"]{
-  
-}
-
 .jj1{
   width: 150px;
   height: 200px;
@@ -47,9 +43,4 @@ section {
 
 .img-fluid:hover{
   transform: scale(1.1);
-}
-
-.bobo{
-  
-  
 }
